@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <AnchorPane BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+               <children>
+                  <FlowPane layoutY="6.0" prefHeight="587.0" prefWidth="390.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="120.0" fitWidth="80.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="120.0" fitWidth="80.0" layoutX="100.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="120.0" fitWidth="80.0" layoutX="250.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="120.0" fitWidth="80.0" layoutX="250.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="120.0" fitWidth="80.0" layoutX="90.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button mnemonicParsing="false" text="Start" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </AnchorPane>
+         </center>
+         <top>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ButtonBar buttonMinWidth="55.0">
+                     <buttons>
+                        <Button mnemonicParsing="false" text="Sit" />
+                        <Button mnemonicParsing="false" text="Leave" />
+                     </buttons>
+                  </ButtonBar>
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+         </top>
+         <left>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+                  <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                    <buttons>
+                      <Button mnemonicParsing="false" text="Sit" />
+                        <Button mnemonicParsing="false" text="Leave" />
+                    </buttons>
+                  </ButtonBar>
+               </children>
+            </VBox>
+         </left>
+         <right>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                     <buttons>
+                        <Button mnemonicParsing="false" text="Sit" />
+                        <Button mnemonicParsing="false" text="Leave" />
+                     </buttons>
+                  </ButtonBar>
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </VBox>
+         </right>
+         <bottom>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                    <buttons>
+                      <Button mnemonicParsing="false" text="Sit" />
+                        <Button mnemonicParsing="false" text="Leave" />
+                    </buttons>
+                  </ButtonBar>
+               </children>
+            </HBox>
+         </bottom>
+      </BorderPane>
+      <MenuBar prefHeight="29.0" prefWidth="730.0" AnchorPane.bottomAnchor="798.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="5 Card Joker Poker">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="5 Card Wild Poker">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="5 Card Draw">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="7 Card Draw">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Texas Hold'em">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Omaha">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
